@@ -37,6 +37,7 @@ progress,
 video {
   display: inline-block;
   vertical-align: baseline;
+  color:#ac2925;
 }
 
 audio:not([controls]) {
@@ -363,6 +364,8 @@ figure {
 
 img {
   vertical-align: middle;
+  width: 280px;
+  height: auto;
 }
 
 .img-responsive {

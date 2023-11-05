@@ -33,7 +33,7 @@ body {
 }
 
 a {
-  color: #fc1d1d;
+  color: #fcd71d;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(241, 124, 28);
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  margin: 0 0 0px 0;
 }
 
 ::-webkit-selection {
@@ -88,6 +88,19 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-main {
     margin: 2em .5em 5em .5em;
   }
+}
+.btn {
+  background-color: rgb(255, 176, 30);
+  border: none;
+  color: rgb(205, 13, 13);
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.btn:hover {
+  background-color: rgb(225, 73, 65);
 }
 
 .fh5co-tab-wrap {
@@ -332,6 +345,11 @@ figure {
   color: #f0e10f;
   font-size: 40px;
 }
+
+.padForTie{
+  padding: 20px;
+}
+
 .fh5co-feature .fh5co-text {
   float: right;
   width: 82%;
@@ -376,6 +394,7 @@ figure {
   left: 0;
   margin-top: -30px;
   width: 100%;
+  color: #f9f6f0;
 }
 .chart span strong {
   display: block;
@@ -436,6 +455,22 @@ figure {
   .row-bottom-padded-md {
     padding-bottom: 1em;
   }
+}
+
+.center {
+  text-align: center;
+}
+
+.divText {
+  text-indent: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .row-bottom-padded-sm {

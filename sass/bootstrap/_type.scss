@@ -150,6 +150,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: ($line-height-computed / 2);
+  padding-left: 20px;
   ul,
   ol {
     margin-bottom: 0;
@@ -160,7 +161,7 @@ ol {
 
 // [converter] extracted from `.list-unstyled` for libsass compatibility
 @mixin list-unstyled {
-  padding-left: 0;
+  padding-left: 20px;
   list-style: none;
 }
 // [converter] extracted as `@mixin list-unstyled` for libsass compatibility
