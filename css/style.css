@@ -32,6 +32,12 @@ body {
   }
 }
 
+.imageStat{
+  width: 88px; 
+  height: 31px;
+  border: 0;
+}
+
 a {
   color: #fcd71d;
   -webkit-transition: 0.5s;
